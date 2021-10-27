@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: linear-gradient(to top, rgb(111, 190, 37),rgb(57, 156, 189));
+        }
+        .form{
+            /* background-color: cadetblue; */
+            width: 700px;
+            height: 700px;
+            margin: auto;
+            padding-left: 100px;
+            font-family: sans-serif;
+        }
+        
+        
+        td{ 
+            width: 500px;
+            height: 50px;
+            margin: 20px;
+            font-size: 20px;
+        }
+        input{
+            width: 200px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" class="form">
+        <table>
+            <tr>
+                <td> First Name</td>
+                <td ><input type="text"  placeholder="Enter your name"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>
+                    <input type="text"  placeholder="Enter your name"> <br>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" placeholder="Enter your email"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td><br><br>
+                <td>
+                    <input type="radio" value="male" style="width: 50px;"> male <br>
+                    <input type="radio" value="male" style="width: 50px;"> female <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td >
+                    <textarea name="Address" id="" cols="30" rows="4"></textarea> 
+                </td>
+            </tr>
+            <tr>
+                <td>D.O.B</td>
+                <td>
+                    <input type="date" style="margin-top: 5px;"><br><br> 
+                </td>
+            </tr>
+            <tr>
+                <td>Sports</td>
+                <td>
+                    <input type="checkbox" style="width: 50px;">Hockey <br>
+                    <input type="checkbox" style="width: 50px;">Football <br>
+                    <input type="checkbox" style="width: 50px;">cricket <br>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="submit" style="width: 60px; height: 30px;">
+                    <input type="reset" style="width: 60px; height: 30px;">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
